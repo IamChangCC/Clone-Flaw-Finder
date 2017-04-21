@@ -1,0 +1,24 @@
+#!wing
+#!version=5.0
+##################################################################
+# Wing IDE project file                                          #
+##################################################################
+[project attributes]
+proj.directory-list = [{'dirloc': loc('embedder'),
+                        'excludes': [u'Embedder.py'],
+                        'filter': '*',
+                        'include_hidden': False,
+                        'recursive': True,
+                        'watch_for_changes': True},
+                       {'dirloc': loc('joerntools'),
+                        'excludes': (),
+                        'filter': u'*',
+                        'include_hidden': False,
+                        'recursive': True,
+                        'watch_for_changes': True}]
+proj.file-list = [loc('embedder/APIEmbedder.py'),
+                  loc('embedder/Embedder.py'),
+                  loc('embedding_emthod_2.py'),
+                  loc('get_all_functions.py'),
+                  loc('__init__.py')]
+proj.file-type = 'shared'
